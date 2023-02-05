@@ -43,4 +43,14 @@ describe('AppComponent', () => {
     bar: "bar",
   
   };
+  interface ClaseB {
+    foo: string;
+    bar: string;
+  } 
+  
+  const exampleClaseB: ClaseB = { 
+    foo: "foo",
+    bar: "bar",
+  
+  };
 });
