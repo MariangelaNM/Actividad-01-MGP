@@ -44,6 +44,16 @@ describe('AppComponent', () => {
   
   };
 
+  interface ClaseB {
+    foo: string;
+    bar: string;
+  } 
+  
+  const exampleClaseB: ClaseB = { 
+    foo: "foo",
+    bar: "bar",
+  
+  };
     
   interface ClaseC {
     color: string;
@@ -55,4 +65,5 @@ describe('AppComponent', () => {
     bar: "bar",
   
   };
+
 });
