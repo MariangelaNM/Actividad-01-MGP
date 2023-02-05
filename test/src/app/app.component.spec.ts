@@ -32,4 +32,15 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.content span')?.textContent).toContain('test app is running!');
   });
+  
+  interface ClaseA {
+    foo: string;
+    bar: string;
+  } 
+  
+  const exampleClaseA: ClaseA = { 
+    foo: "foo",
+    bar: "bar",
+  
+  };
 });
