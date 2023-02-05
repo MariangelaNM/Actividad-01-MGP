@@ -43,4 +43,16 @@ describe('AppComponent', () => {
     bar: "bar",
   
   };
+
+    
+  interface ClaseC {
+    color: string;
+    bar: string;
+  } 
+  
+  const exampleClaseC: ClaseC = { 
+    color: "Blue",
+    bar: "bar",
+  
+  };
 });
